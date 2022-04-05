@@ -16,7 +16,7 @@ My script consists of these tools. You don't need to download it separately, sin
 
 
 
-## Usage
+## Example usage
 
     git clone https://github.com/djlee1/COVIDseq_to_peptide.git
     cd COVIDseq_to_peptide
@@ -26,5 +26,5 @@ My script consists of these tools. You don't need to download it separately, sin
 ## Output
 |File name|Description|
 |---|---|
-|orf/{sample}.fasta|Parsed sequences based on SARS-CoV-2 gff3|
-|peptide/{sample}.fasta|Amino acid sequences translated from orf/{sample}.fasta |
+|`orf/sample.fasta`|Parsed sequences based on SARS-CoV-2 gff3|
+|`peptide/sample.fasta`|Amino acid sequences translated from orf/{sample}.fasta |
