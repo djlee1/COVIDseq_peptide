@@ -1,5 +1,5 @@
-# COVIDseq_peptide
-A tibble script to convert COVID consensus genome to peptide sequence.
+# COVIDseq_to_peptide
+A tiny script to convert COVID consensus genome to peptide sequence.
 
 SARS-CoV-2 Reference was taken from [NCBI](https://www.ncbi.nlm.nih.gov/sars-cov-2/)
 
