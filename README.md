@@ -17,6 +17,8 @@ SARS-CoV-2 Reference was taken from [NCBI](https://www.ncbi.nlm.nih.gov/sars-cov
 
 ## Usage
 
+    git clone https://github.com/djlee1/COVIDseq_to_peptide.git
+    cd COVIDseq_to_peptide
     ./convert.sh {sample.fasta}
     
 
