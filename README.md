@@ -23,6 +23,10 @@ My script consists of these tools. You don't need to download it separately, sin
     bash ./convert.sh sample.fasta
     
 
+## Input
+This script takes consensus genome file(FASTA format) with index as input. Usually, the hard-masked consensus FASTA is available in `Sample_Analysis/<Sample ID>/<Sample ID>.fasta` from the Illumina DRAGEN COVIDSeq Test Pipeline outputs.
+
+
 ## Output
 |File name|Description|
 |---|---|
