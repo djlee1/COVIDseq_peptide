@@ -1,15 +1,27 @@
 # COVIDseq_peptide
-Convert consensus genome to peptide sequence
+A tibble script to convert COVID consensus genome to peptide sequence.
 
-### ORF parsing consensus genome (based on reference GFF3)
+SARS-CoV-2 Reference was taken from [NCBI](https://www.ncbi.nlm.nih.gov/sars-cov-2/)
 
-```bash
-gffread -w pepetide/sample.orf.fasta -g sample.fasta Ref/NC_045512.2.gff3
-```
 
-### faTrans
-(https://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/faTrans)
-```bash
-awk '{ if ($1~">") gsub(" ", ";"); print $0}' pepetide/sample.orf.fasta > pepetide/sample.orf.fasta
-faTrans pepetide/sample.orf.fasta pepetide/sample.orf.pep
-```
+
+
+## Based on these tools
+|Tools|Version/Links|
+|---|---|
+|`gffread`|cufflinks-2.2.1 |
+|`faTrans`|https://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/faTrans |
+
+
+
+
+## Usage
+
+    ./convert.sh {sample.fasta}
+    
+
+## Output
+|File name|Description|
+|---|---|
+|orf/{sample}.fasta|Parsed sequences based on SARS-CoV-2 gff3|
+|peptide/{sample}.fasta|Amino acid sequences translated from orf/{sample}.fasta |
