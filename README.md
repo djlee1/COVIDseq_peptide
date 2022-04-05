@@ -6,7 +6,8 @@ SARS-CoV-2 Reference was taken from [NCBI](https://www.ncbi.nlm.nih.gov/sars-cov
 
 
 
-## Based on these tools
+## Tools
+My script consists of these tools. You don't need to download it separately, since these are included in the repo.
 |Tools|Version/Links|
 |---|---|
 |`gffread`|cufflinks-2.2.1 |
