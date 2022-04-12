@@ -20,7 +20,7 @@ My script consists of these tools. You don't need to download it separately, sin
 
     git clone https://github.com/djlee1/COVIDseq_to_peptide.git
     cd COVIDseq_to_peptide
-    bash ./convert.sh sample.fasta
+    bash ./convert.sh sample.fasta .
     
 
 ## Input
