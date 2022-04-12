@@ -18,7 +18,7 @@ fa=$1
 name=`basename -s ".fasta" $fa`
 
 [ ! -f $fa ] && { echo "Fasta file absent"; exit 1; }
-[ ! -f ${fa}.fai ] && { echo "Fasta index file absent"; exit 1; }
+#[ ! -f ${fa}.fai ] && { echo "Fasta index file absent"; exit 1; }
 
 
 # 2. gffread
